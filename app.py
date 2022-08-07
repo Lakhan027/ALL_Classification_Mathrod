@@ -7,7 +7,6 @@ app = Flask(__name__)
 model = pickle.load(open('kkn22.pkl', 'rb'))
 model = pickle.load(open('nb_model22.pkl', 'rb'))
 model = pickle.load(open('dt_model22.pkl', 'rb'))
-model = pickle.load(open('rf_model22.pkl', 'rb'))
 model = pickle.load(open('rbf22_model.pkl', 'rb')) 
 
 
